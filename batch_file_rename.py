@@ -59,6 +59,6 @@ def main():
 
     batch_rename(work_dir, old_ext, new_ext)
 
-
+#it sets the special __name__ variable to have a value "__main__"
 if __name__ == '__main__':
     main()
